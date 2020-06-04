@@ -1,0 +1,56 @@
+h1{
+    font-family:Remachine Script Personal Use;
+    margin-top:50px;
+    text-align:center;
+    color:white;
+    text-shadow: whitesmoke;
+      
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.keys{
+    display: flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.key{
+    border:.4rem solid white;
+    border-radius:.5rem;
+    margin:1rem;
+    font-size:1rem;
+    padding:1rem .5rem;
+    transition: all .07s ease;
+    width: 100px;
+    text-align:center;
+    color:white;
+    background: rgb(0,0,0,0.4);
+    text-shadow: 0 0 .5rem whitesmoke;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color:blanchedalmond;
+    box-shadow: 0 0 1rem blueviolet;
+
+}
+
+kbd{
+    display:block;
+    font-size: 4rem;
+}
+
+.sound{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color:saddlebrown;
+}
